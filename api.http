@@ -1,0 +1,18 @@
+GET http://localhost:3000/routes
+
+###
+
+POST http://localhost:3000/routes
+content-type: application/json
+
+{
+    "name": "ROTA 1",
+    "source": {
+      "lat": 1.1,
+      "lng": 1.2
+    },
+    "destination": {
+      "lat": 1.1,
+      "lng": 1.2
+    }
+}
